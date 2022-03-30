@@ -1,8 +1,16 @@
 //This is a practice JavaScript code
 /**
+ * .unshift() works exactly like .push(), 
+ * but instead of adding the element at the end of the array, 
+ * unshift() adds the element at the beginning of the array.
+*/
+const ourArrayUnshift = ["Stimpson", "J", "cat"];
+ourArray.shift();
+ourArray.unshift("Happy");
+//After the shift, ourArray would have the value ["J", "cat"]. After the unshift, ourArray would have the value ["Happy", "J", "cat"].
+/**
  * .shift() removes the first element instead of the last.
  */
-
 const ourArrayShift = ["Stimpson", "J", ["cat"]];
 const removedFromOurArray = ourArrayShift.shift();
 //removedFromOurArray would have a value of the string Stimpson, and ourArray would have ["J", ["cat"]].
