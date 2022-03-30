@@ -1,8 +1,20 @@
 //This is a practice JavaScript code
+/**
+ * One way to think of a multi-dimensional array, is as an array of arrays.
+ * When you use brackets to access your array,
+ * the first set of brackets refers to the entries in the outer-most (the first level) array, 
+ * and each additional pair of brackets refers to the next level of entries inside.
+ */
+arr[3];
+arr[3][0];
+arr[3][0][1];
+//=>arr[3] is [[10, 11, 12], 13, 14], arr[3][0] is [10, 11, 12], and arr[3][0][1] is 11.
+//Unlike strings, the entries of arrays are mutable and can be changed freely, even if the array was declared with const.
+const ourArray = [50, 40, 30];
+ourArray[0] = 15;
+//==>ourArray now has the value [15, 40, 30]
 //You can also nest arrays within other arrays, This is also called a multi-dimensional array.
-
-
-
+const myArrayMultiDimensional = [['red', 2], ['blue', 3]];
 //Modify the new array myArray so that it contains both a string and a number (in that order).
 const myArray = ["peanut butter", 1];
 /**
