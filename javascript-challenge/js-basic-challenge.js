@@ -1,10 +1,23 @@
 //This is a practice JavaScript code
+//An easy way to append data to the end of an array is via the push() function.
+//.push() takes one or more parameters and "pushes" them onto the end of the array.
+const arr1 = [1, 2, 3];
+arr1.push(4);
+const arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+//=>arr1 now has the value[1, 2, 3, 4] and arr2 has the value["Stimpson", "J", "cat", ["happy", "joy"]].
 /**
  * One way to think of a multi-dimensional array, is as an array of arrays.
  * When you use brackets to access your array,
  * the first set of brackets refers to the entries in the outer-most (the first level) array, 
  * and each additional pair of brackets refers to the next level of entries inside.
  */
+const arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14]
+];
 arr[3];
 arr[3][0];
 arr[3][0][1];
