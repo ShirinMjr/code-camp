@@ -1,4 +1,10 @@
 //This is a practice JavaScript code
+//You can also nest arrays within other arrays, This is also called a multi-dimensional array.
+
+
+
+//Modify the new array myArray so that it contains both a string and a number (in that order).
+const myArray = ["peanut butter", 1];
 /**
  * Escape Sequences in Strings
  *  Code	Output
