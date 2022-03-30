@@ -1,4 +1,31 @@
 //This is a practice JavaScript code
+/**
+ * Escape Sequences in Strings
+ *  Code	Output
+ *  \'	single quote
+ *  \"	double quote
+ *  \\	backslash
+ *  \n	newline
+ *  \r	carriage return
+ *  \t	tab
+ *  \b	word boundary
+ *  \f	form feed
+ */
+//Assign the following three lines of text into the single variable myStr using escape sequences.
+/**
+    FirstLine
+        \SecondLine
+    ThirdLine
+ */
+const myStr3 = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+/**
+ * Change the provided string to a string with single quotes
+ *  at the beginning and end and no escape characters.
+ * 
+ * Right now, the <a> tag in the string uses double quotes everywhere. 
+ * You will need to change the outer quotes to single quotes so you can remove the escape characters.
+ */
+const myStr2 = '<a href="http://www.example.com" target="_blank">Link</a>';
 //when you need a literal quote: " or ' inside of your string
 /**
  * In JavaScript, you can escape a quote from considering 
