@@ -16,5 +16,15 @@
  * In the case that the function doesn't have a return statement,
  * when you call it, the function processes the inner code but the returned value is undefined.
  */
+const outerWear = "T-Shirt";
+console.log(outerWear);
 
+function myOutfit() {
+    const outerWear = "sweater";
+    console.log(outerWear);
+    return outerWear;
+}
+
+myOutfit();
+console.log(outerWear);
 
