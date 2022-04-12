@@ -31,6 +31,7 @@ function cc(card) {
         case 6:
             count++;
             break;
+        case 10:
         case 'J':
         case 'Q':
         case 'K':
@@ -39,9 +40,9 @@ function cc(card) {
             break;
     }
     if (count > 0) {
-        return "5 Bet";
+        return count + " Bet";
     } else if (count < 0) {
-        return "-5 Hold";
+        return count + " Hold";
     } else {
         return "0 Hold";
     }
