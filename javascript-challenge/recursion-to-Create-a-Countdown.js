@@ -15,3 +15,19 @@
  * should return the array [5, 4, 3, 2, 1]. 
  * Your function must use recursion by calling itself and must not use loops of any kind.
  */
+
+function countdown(n) {
+    if (n < 1) {
+        return [];
+    } else {
+        const countDownArray = countdown(n - 1);
+        countDownArray.unshift(n);
+        return countDownArray;
+    }
+}
+
+/**
+ * function countdown(n){
+ * return n < 1 ? [] : [n].concat(countdown(n - 1));
+ * }
+ */
